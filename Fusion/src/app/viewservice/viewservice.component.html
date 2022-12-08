@@ -1,0 +1,45 @@
+<div align="center">
+    <span><h2 style=" color:#04293A; font-family: 'Bebas Neue', cursive; letter-spacing:1px  "  ><u>View Service</u></h2> </span>
+    </div><br>
+    
+    <div class="container">
+    <section class="intro mb-4">
+      <div class="bg-image h-100" style="background-image: url('https://mdbootstrap.com/img/Photos/new-templates/tables/img2.jpg');">
+        <div class="mask d-flex align-items-center h-100" style="background-color: rgba(0,0,0,.25);">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12">
+                <div class="card bg-dark shadow-2-strong">
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table table-dark table-borderless mb-0">
+                        <thead>
+                          <tr>
+                            <th scope="col">SERVICE ID</th>
+                            <th scope="col">SERVICE NAME</th>
+                            <th scope="col">YOUR NAME</th>
+                            <th scope="col">EMAIL ID</th>
+                            <th scope="col">CONTACT NUMBER</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let d of data">
+                            <td>{{d.serviceid}}</td>
+                            <td>{{d.servicename}}</td>
+                            <td>{{d.yourname}}</td>
+                            <td>{{d.emailid}}</td>
+                            <td>{{d.contactno}}</td>
+                          </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+  </div>

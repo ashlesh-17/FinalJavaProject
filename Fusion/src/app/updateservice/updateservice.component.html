@@ -1,0 +1,62 @@
+<div align="center">
+    <span><h2 style=" color:#04293A; font-family: 'Bebas Neue', cursive; letter-spacing:1px  "  ><u>Update Service</u></h2> </span>
+    </div><br>
+    
+    <br><br>
+    
+    <div class="container mb-4"> 
+    <section class="h-100 h-custom" style="background-color:#124759;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-6 col-xl-6">
+              <div class="card rounded-3">
+                <img src="../../assets/Images/Services/a3.jpeg"
+                  class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+                  alt="Sample photo">
+                <div class="card-body p-4 p-md-5">
+                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2" style="font-family: 'Bebas Neue'">Insert Details</h3>
+      
+                  <form class="px-md-2" #updateform="ngForm" (ngSubmit)="updatedata(updateform)">
+
+                    <div class="form-outline mb-4">
+                      <input type="number" id="serviceid" #serviceid (ngModel)="serviceid" name="serviceid" class="form-control" />
+                      <label class="form-label" for="form3Example1q">Service Id</label>
+                    </div>
+
+                    <div class="form-outline mb-1">
+                      <input type="text" id="servicename" #servicename (ngModel)="servicename" name="servicename" class="form-control" />
+                      <label class="form-label" for="form3Example1q">Service Name</label>
+                    </div>
+      
+                    <div class="form-outline mb-1">
+                      <input type="text" id="yourname" #yourname (ngModel)="yourname" name="yourname"class="form-control" />
+                      <label class="form-label" for="form3Example1q" >Your Name</label>
+                    </div>
+    
+                    <div class="form-outline mb-1">
+                        <input type="text" id="emailid" #emailid (ngModel)="emailid" name="emailid"class="form-control" />
+                        <label class="form-label" for="form3Example1q">Email Id</label>
+                      </div>
+    
+                      <div class="form-outline mb-1">
+                        <input type="text" id="contactno" #contactno (ngModel)="contactno" name="contactno"class="form-control" />
+                        <label class="form-label" for="form3Example1q">Contact No</label>
+                      </div>
+    
+                      
+    
+                      
+      
+                    
+                      <div align="center"> 
+                    <button type="submit" class="btn btn-success btn-lg mb-1" >Submit Details</button>
+                      </div>
+                  </form>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>

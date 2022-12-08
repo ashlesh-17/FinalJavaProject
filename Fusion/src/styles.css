@@ -1,0 +1,13 @@
+.fosize
+{
+  font-size:22px;
+  font-weight: 300;
+}
+.ud:hover
+{
+  border-bottom: 2px solid #000;
+}
+.fofamily
+{
+  font-family: 'Bebas Neue';
+}
